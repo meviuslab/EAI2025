@@ -1,2 +1,2 @@
-# EAI-KDD23
+# EAI-KDD 2025
  
