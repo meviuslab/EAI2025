@@ -64,28 +64,91 @@
     <table>
         <tr>
             <td>
-                <h2 style="font-size: 20px">  </h2> 
-                <strong>  </strong>  <br>
-                <u>Abstract</u>: .
+                <h2 style="font-size: 20px"> <strong>[Runner-up Award]</strong>Defend LLMs Through Self-Consciousness  </h2> 
+                <strong> Boshi Huang, Fabio Nonato de Paula </strong>  <br>
+                <u>Abstract</u>: This paper introduces a novel self-consciousness defense mechanism for Large Language Models (LLMs) to combat prompt injection attacks. Unlike traditional approaches that rely on external classifiers, our method leverages the LLM's inherent reasoning capabilities to perform self-protection. We propose a framework that incorporates Meta-Cognitive and Arbitration Modules, enabling LLMs to evaluate and regulate their own outputs autonomously. Our approach is evaluated on seven state-of-the-art LLMs using two datasets: AdvBench and Prompt-Injection-Mixed-Techniques-2024. Experiment results demonstrate significant improvements in defense success rates across models and datasets, with some achieving perfect and near-perfect defense in Enhanced Mode. We also analyze the trade-off between defense success rate improvement and computational overhead. This self-consciousness method offers a lightweight, cost-effective solution for enhancing LLM security, particularly beneficial for AWS customers across various platforms.
             </td>
         </tr>
 
         <tr>
             <td>
-                <h2 style="font-size: 20px">  </h2> 
-                <strong>  </strong>  <br>
-                <u>Abstract</u>: .
+                <h2 style="font-size: 20px">“Check My Work?” Measuring Sycophancy in a Simulated Educational Context  </h2> 
+                <strong>Charles Arvin  </strong>  <br>
+                <u>Abstract</u>:This study examines how user-provided suggestions affect Large Language Models (LLMs) in a simulated educational context, where sycophancy poses significant risks. Testing five different LLMs from the OpenAI GPT-4o and GPT-4.1 model classes across five experimental conditions, we show that response quality varies dramatically based on query framing. In cases where the student mentions an incorrect answer, the LLM correctness can degrade by as much as 15 percentage points, while mentioning the correct answer boosts accuracy by the same margin. Our results also show that this bias is stronger in smaller models, with an effect of up to 30\% for the GPT-4.1-nano model, versus 8% for the GPT-4o model. Our analysis of how often LLMs ``flip'' their answer, and an investigation into token level probabilities, confirm that the models are generally changing their answers to answer choices mentioned by students in line with the sycophancy hypothesis. This sycophantic behavior has important implications for educational equity, as LLMs may accelerate learning for knowledgeable students while the same tools may reinforce misunderstanding for less knowledgeable students. Our results highlight the need to better understand the mechanism, and ways to mitigate, such bias in the educational context.
             </td>
         </tr>
 
         <tr>
             <td>
-                <h2 style="font-size: 20px">  </h2> 
-                <strong>  </strong>  <br>
-                <u>Abstract</u>: .
+                <h2 style="font-size: 20px">Harnessing Deep Learning for Brain Tumor Analysis: Transforming MRI Scans into Accurate Diagnostic and Segmentation Insights  </h2> 
+                <strong>Abhishek Malik   </strong>  <br>
+                <u>Abstract</u>:Brain tumours, characterized by the proliferation of cells in the brain in an abnormal manner, are a serious health risk to human beings because they can interfere with critical neural processes. Brain tumours are highly diverse in form, size, and site and hence magnetic resonance imaging (MRI) is a critical modality for their detection and characterization. In this article, models for classification and brain tumour segmentation from MRI images are proposed. For the classification step, four types of tumours, viz., glioma, meningioma, pituitary, and no- tumour, were classified using transfer learning models such as EfficientNetB1, VGG16, InceptionNet, and ResNet50. Among them, EfficientNetB1 showed higher performance with 97.49% accuracy. Subsequently, segmentation models were experimented with to establish tumour contours—a significant use in medical imaging diagnostics. Models assessed were FCN, U-Net, Attention U-Net, and ResU-Net produced the best Intersection over Union (IoU) value of 0.7674. Segmentation pipeline produced pixel- level tumour masks from MRI images for accurate definition of infected areas. The research utilizes cutting-edge architectures in the form of compound-scaled convolutional networks and variants of residual U-Net, which have proved powerful in dealing with intricate imaging data and learning deep spatial hierarchies. The suggested framework demonstrates the possi- bility of optimized deep learning models to attain both precise classification and precise segmentation. This end-to-end strategy promises better diagnostic support and forms a basis for model generalization, interpretability, and clinical utilization in the future. Future efforts will focus on further tuning architectural modules, strengthening feature extraction processes, and testing the framework on more extensive and varied datasets.
             </td>
         </tr>
-        
+
+        <tr>
+            <td>
+                <h2 style="font-size: 20px"> <strong>[Best Paper Award]</strong>Causally Fair Node Classification on Non-IID Graph Data  </h2> 
+                <strong>Yucong Dai, Lu Zhang, Yaowei Hu, Susan Gauch, Yongkai Wu  </strong>  <br>
+                <u>Abstract</u>:Fair machine learning seeks to identify and mitigate biases in predictions against unfavorable populations characterized by demographic attributes, such as race and gender. Recent research has extended fairness to graph data, such as social networks, but many neglect the causal relationships among data instances. This paper addresses the prevalent challenge in fairness-aware ML algorithms, which typically assume Independent and Identically Distributed (IID) data, from the causal perspective. We base our research on the Network Structural Causal Model (NSCM) framework and develop a Message Passing Variational Autoencoder for Causal Inference (MPVA) framework to compute interventional distributions and facilitate causally fair node classification through estimated interventional distributions. We show that our method is theoretically sound under two general assumptions: Decomposability and Graph Independence, which enable the computation of interventional distributions in non-IID settings using the do-calculus. Empirical evaluations on semi-synthetic and real-world datasets demonstrate that MPVA outperforms conventional methods by effectively approximating interventional distributions and mitigating bias. The implications of our findings underscore the potential of causality-based fairness in complex ML applications, setting the stage for further research into relaxing the initial assumptions to enhance model fairness.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h2 style="font-size: 20px">Optimizing the Ineffable: Generative Policy Learning for Human-Centered Decision-Making  </h2> 
+                <strong>Zekai Fan, Michael Lingzhi Li, Shixiang Zhu  </strong>  <br>
+                <u>Abstract</u>:Algorithmic decision-making is widely adopted in high-stakes applications affecting our daily lives but often requires human decision-makers to exercise their discretion within the process to ensure alignment. Explicitly modeling human values and preferences is challenging when tacit knowledge is difficult to formalize, as Michael Polanyi observed, "We can know more than we can tell." To address this challenge, we propose generative near-optimal policy learning (GenNOP). Our framework leverages a conditional generative model to reliably produce diverse, near-optimal, and potentially high-dimensional stochastic policies. Our approach involves a re-weighting scheme for training generative models according to the estimated probability that each training sample is near-optimal. Under our framework, decision-making algorithms focus on a primary, measurable objective, while human decision-makers apply their tacit knowledge to evaluate the generated decisions, rather than developing explicit specifications for the ineffable, human-centered objective. Through extensive synthetic and real-world experiments, we demonstrate the effectiveness of our method.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h2 style="font-size: 20px">XAI Desiderata for Ethical AI: Insights from the AI Act  </h2> 
+                <strong>Jiří Němeček, Martin Krutský, Jakub Peleška, Paula Gürtler, Gustav Šír  </strong>  <br>
+                <u>Abstract</u>:Explainable AI (XAI) is an actively growing field. When choosing a suitable XAI method, one can get overwhelmed by the number of existing approaches, their properties, and taxonomies. In this paper, we approach the problem of navigating the XAI landscape from a practical perspective of emerging regulatory needs. Particularly, the recently approved AI Act gives users of AI applications classified as ``high-risk'' a \textit{right to explanation}. We propose a practical framework to navigate between these high-risk domains and the diverse perspectives of different explainees' roles via six core XAI desiderata. The introduced desiderata can then be used by stakeholders with different backgrounds to make informed decisions about which explainability technique is more appropriate for their use case.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h2 style="font-size: 20px">Exposing and Patching the Flaws of Large Language Models in Social Character Simulation  </h2> 
+                <strong>Yue Huang, Zhengqing Yuan, Yujun Zhou, Kehan Guo, Xiangqi Wang, Yuan Li, Haomin Zhuang, Weixiang Sun, Lichao Sun, Jindong Wang, Yanfang Ye, Xiangliang Zhang  </strong>  <br>
+                <u>Abstract</u>:Large Language Models (LLMs) are increasingly used for social character simulations, enabling applications in role-playing agents and Computational Social Science (CSS). However, their inherent flaws—such as inconsistencies in simulated roles—raise concerns about their reliability and trustworthiness. In this paper, we systematically investigate these flaws and explore potential solutions. To assess the reliability of LLM-based simulations, we introduce TrustSim, a benchmark dataset covering 10 CSS-related topics. Through experiments on 14 LLMs, we uncover persistent inconsistencies in simulated roles and find that higher general model performance does not necessarily correlate with greater simulation reliability. To mitigate these flaws, we propose Adaptive Learning Rate Based ORPO (AdaORPO), a reinforcement learning-based algorithm that improves simulation consistency across seven LLMs. Our study not only exposes critical weaknesses in LLM-driven social character simulations but also offers a pathway toward more robust and trustworthy simulations, laying the foundation for future advancements in this field.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h2 style="font-size: 20px">Uncovering Social Disparities in Primary Care through Data-Driven Multimorbidity Profiling  </h2> 
+                <strong>Yu Liu, Tingting Zhu  </strong>  <br>
+                <u>Abstract</u>:Multimorbidity, the co-occurrence of two or more chronic diseases in an individual, represents a growing challenge for primary care systems worldwide. However, its intersection with social determinants of health remains underexplored. In this study, we leverage electronic health records from 3.3 million individuals in England to uncover social disparities in multimorbidity patterns using a data-driven, stratified clustering framework. We develop a latent class analysis approach to identify clinically meaningful multimorbidity profiles across age-sex strata and systematically examine their prevalence across socioeconomic, ethnic, and geographic groups. Our results reveal pronounced disparities: individuals from deprived backgrounds exhibit earlier onset and higher burden of multimorbidity, while ethnic minorities are overrepresented in cardiometabolic and renal profiles. Regional differences further reflect the combined impact of deprivation and ethnicity on disease clustering. These findings underscore the potential of artificial intelligence not only for clinical prediction, but also to uncover structural inequities embedded within health systems. Our work highlights the need for tailored public health strategies that address the social gradients of multimorbidity in the design of equitable healthcare.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h2 style="font-size: 20px">Bias Mitigation Agent: Optimizing Source Selection for Fair and Balanced Knowledge Retrieval  </h2> 
+                <strong>Karanbir Singh, Deepak Muppiri, William Ngu  </strong>  <br>
+                <u>Abstract</u>:Large Language Models (LLMs) have transformed the field of artificial intelligence by unlocking the era of generative applications. Built on top of generative AI capabilities, Agentic AI represents a major shift toward autonomous, goal-driven systems that can reason, retrieve, and act. However, they also inherit the bias present in both internal and external information sources. This significantly affects the fairness and balance of retrieved information, and hence reduces user trust. To address this critical challenge, we introduce a novel Bias Mitigation Agent, a multi-agent system designed to orchestrate the workflow of bias mitigation through specialized agents that optimize the selection of sources to ensure that the retrieved content is both highly relevant and minimally biased to promote fair and balanced knowledge dissemination. The experimental results demonstrate an 81.82\% reduction in bias compared to a baseline naive retrieval strategy.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h2 style="font-size: 20px">SURE: Framework for Safety to Construct Trustworthy AI  </h2> 
+                <strong>Soeun Han, Jisoo Lee, Jeongyong Shim, Eunkyeong Lee, Eunmi Kim  </strong>  <br>
+                <u>Abstract</u>:Recently, large language models such as GPT-4, and Claude have revolutionized tasks in various domains. As the use of these large language models increases, people are increasingly concerned about AI safety and demand that large language models behave responsibly and safely. As a result, there has been growing global interest in developing methods to ensure AI safety. However, the detailed criteria for AI safety may vary depending on the country, culture, and policies of the company you serve. In this study, we propose SURE (A Safe and Unified AI Framework foR Everyone), which is designed as a framework for customizing the attributes of AI safety and ensuring the defined AI safety. Within SURE, we establish taxonomies for adversarial prompts that could threaten AI safety and construct prompts based on the taxonomies. We then define templates for desirable AI responses to these prompts and design an absolute safety scoring scheme. Finally, we conduct AI alignment using the datasets to gradually ensure AI safety. The effectiveness of SURE is demonstrated through experiments with various base models.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h2 style="font-size: 20px">Ask before you Build: Rethinking AI-for-Good in Human Trafficking Interventions  </h2> 
+                <strong>Pratheeksha Nair, Gabriel Lefebvre, Sophia Garrel, Maryam Molamohammadi, Reihaneh Rabbany </strong>  <br>
+                <u>Abstract</u>:AI-for-good initiatives often rely on the assumption that technical interventions can resolve complex social problems. In the context of human trafficking (HT), such techno-solutionism risks oversimplifying exploitation, reinforcing power imbalances, and causing harm to the very communities AI claims to support. In this paper, we introduce the Radical Questioning (RQ) framework as a five-step, pre-project ethical assessment tool to critically evaluate whether AI should be built at all—especially in domains involving marginalized populations and entrenched systemic injustice. RQ does not replace principles-based ethics but precedes it, offering an upstream, deliberative space to confront assumptions, map power, and consider harms before design. Using a case study in AI for HT, we demonstrate how RQ reveals overlooked socio-cultural complexities and guides us away from surveillance-based interventions toward survivor-empowerment tools. While developed in the context of HT, RQ’s five-step structure can generalize to other domains—though the specific questions must be contextual. This paper situates RQ within a broader AI ethics philosophy that challenges instrumentalist norms and centers relational, reflexive responsibility.
+            </td>
+        </tr>
         
     </table>
     
